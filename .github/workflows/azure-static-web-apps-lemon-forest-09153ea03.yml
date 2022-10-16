@@ -23,6 +23,7 @@ jobs:
           submodules: true
       - name: npm install
         run: |
+          npm install react-scripts
           npm install
       - name: Build And Deploy
         id: builddeploy
