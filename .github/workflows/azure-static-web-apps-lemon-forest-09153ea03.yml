@@ -15,6 +15,14 @@ jobs:
     runs-on: ubuntu-latest
     name: Build and Deploy Job
     steps:
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+          cache: 'npm'
+      - name: Install npm@8
+        run: npm i -g npm@8
+      - name: Install
+        run: npm ci --prefer-offline
       - uses: actions/checkout@v2
         with:
           submodules: true
