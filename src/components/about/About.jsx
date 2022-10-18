@@ -1,6 +1,5 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './about.css';
-import {FaAward} from "react-icons/fa";
 import ME from "../../assets/meirl.png";
 import {SlGraduation} from "react-icons/sl";
 import {MdWorkOutline} from "react-icons/md";
@@ -17,7 +16,7 @@ const About = () => {
                 <div className="container about__container">
                     <div className="about__me">
                         <div className="about__me-image">
-                            <img src={ME} alt="About Image" className="meirl"/>
+                            <img src={ME} alt="me" className="meirl"/>
                         </div>
                     </div>
                     <div className="about__content">
