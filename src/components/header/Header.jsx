@@ -4,9 +4,9 @@ import React, {Component} from 'react';
 import CTA from "./CTA";
 import ME from "../../assets/me.png"
 import HeaderSocial from "./HeaderSocial";
+import {TiArrowRightThick} from "react-icons/ti";
 
-class Header extends Component {
-    render() {
+const Header = () => {
         return (
             <div className="App">
                 <header>
@@ -20,13 +20,12 @@ class Header extends Component {
                             <img src={ME} alt="me"/>
                         </div>
 
-                        <a href="#contact" className='scroll__down'>Scroll down</a>
+                        <a href="#contact" className='scroll__down'><TiArrowRightThick /></a>
 
                     </div>
                 </header>
             </div>
         );
-    }
 }
 
 export default Header;

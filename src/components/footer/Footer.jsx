@@ -2,14 +2,14 @@ import './footer.css';
 
 import React, {Component} from 'react';
 
-class Footer extends Component {
-    render() {
+const Footer = () => {
         return (
-            <div>
-                
-            </div>
+            <footer>
+                <div className="footer__copyright">
+                    <small>Copyright &copy; 2022 | Julien LIETARD | Tous droits réservés</small>
+                </div>
+            </footer>
         );
-    }
 }
 
 export default Footer;
