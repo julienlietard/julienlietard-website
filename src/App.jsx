@@ -5,10 +5,10 @@ import About from "./components/about/About";
 import Contact from "./components/contact/Contact";
 import Skills from "./components/skills/Skills";
 import Footer from "./components/footer/Footer";
-import {Cookies, useCookies} from "react-cookie";
+import {useCookies} from "react-cookie";
 
 const App = () => {
-    const [cookies, setCookie] = useCookies(['access_token', 'refresh_token'])
+    const [, setCookie] = useCookies(['access_token', 'refresh_token'])
     setCookie("token","HQUJY0R41S")
     return (
       <>
