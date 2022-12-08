@@ -25,14 +25,14 @@ const About = () => {
                                 <SlGraduation className="about__icon"/>
                                 <h5>Licence</h5>
                                 <small>MIAGE</small><br />
-                                <small><GoLocation /> Université Orléans</small><br />
+                                <small><GoLocation /> Univ' d'Orléans</small><br />
                                 <small>2021</small>
                             </article>
                             <article className="about__card">
                                 <MdWorkOutline className="about__icon"/>
                                 <h5>Sopra Steria</h5>
                                 <small>Ingénieur d'études</small><br />
-                                <small><GoLocation /> Orléans Emile Zola</small><br />
+                                <small><GoLocation /> Orléans</small><br />
                                 <small>Sept 2021 - Now</small>
                             </article>
                             <article className="about__card">
