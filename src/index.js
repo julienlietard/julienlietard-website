@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './components/background/background.scss';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+      <div id="stars-container">
+          <div id='stars'></div>
+            <div id='stars2'></div>
+          <App />
+      </div>
   </React.StrictMode>
 );
 
