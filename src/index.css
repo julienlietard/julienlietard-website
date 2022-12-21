@@ -43,10 +43,10 @@ body {
 
   font-family: "Poppins", sans-serif;
 
-  background: var(--color-bg);
+  /* background: var(--color-bg); */
   color: var(--color-white);
   line-height: 1.7;
-  background-color: var(--color-bg);
+  /* background-color: var(--color-bg); */
 }
 
 /* ========== LES STYLES DE BASE =========== */

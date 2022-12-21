@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import ME from "../../assets/meirl.png";
+import ME from "../../assets/meabout.png";
 import {SlGraduation} from "react-icons/sl";
 import {MdWorkOutline} from "react-icons/md";
 import {GoLocation} from "react-icons/go";
