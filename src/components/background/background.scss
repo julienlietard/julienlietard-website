@@ -83,7 +83,7 @@ body
     height: 1px;
     background: transparent;
     box-shadow: $stars-small;
-    animation : animateStars 28.5s ease-in-out infinite;
+    animation : animateStars 70s ease-in-out infinite;
     @include roundedCorners;
 
 &::after
@@ -106,7 +106,7 @@ body
     height: 2px;
     background: transparent;
     box-shadow: $stars-medium;
-    animation : animateStars 30s ease-in-out infinite;
+    animation : animateStars 50s ease-in-out infinite;
     @include roundedCorners;
 
 &::after
@@ -129,7 +129,7 @@ body
     height: 3px;
     background: transparent;
     box-shadow: $stars-big;
-    animation : animateStars 31.5s ease-in-out infinite;
+    animation : animateStars 70s ease-in-out infinite;
     @include roundedCorners;
 
 &:after

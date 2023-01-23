@@ -16,10 +16,11 @@
   -moz-osx-font-smoothing: grayscale;
 
   --color-primary: #4db5ff;
-  --color-primary-variant: rgba(77, 181, 255, 0.4);
+  --color-primary-variant: #161C23;
   --color-white: #fff;
   --color-bg: #282c34;
-  --color-bg-variant: #2c2c6c;
+  --color-on: rgba(0,0,0,0.5);
+  --color-bg-variant: rgba(0,0,0,0.3);
   --color-light: rgba(255, 255, 255, 0.6);
 
   --container-width-lg: 75%;
@@ -99,6 +100,7 @@ a:hover {
   cursor: pointer;
   border: 1px solid var(--color-primary);
   transition: var(--transition);
+  backdrop-filter: blur(15px);
 }
 
 .btn:hover{
