@@ -1,9 +1,10 @@
 footer {
-    background: var(--color-primary);
+    background: var(--color-primary-variant);
     padding: 1rem 0;
     text-align: center;
     font-size: 0.9rem;
     margin-top: 7rem;
+    backdrop-filter: blur(15px);
 }
 
 footer a {
@@ -19,7 +20,7 @@ footer a {
 
 .footer__copyright {
     margin-bottom: 6rem;
-    color: var(--color-bg);
+    color: white;
 }
 
 /* =========== MEDIA (tablette) =========== */

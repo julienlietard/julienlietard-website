@@ -4,7 +4,7 @@
 .about__container {
     display: grid;
     grid-template-columns: 35% 50%;
-    gap: 15%
+    gap: 15%;
 }
 
 .about__me {
@@ -17,12 +17,8 @@
 .about__me-image {
     border-radius: 2rem;
     overflow: hidden;
-    transform: rotate(10deg);
     transition: var(--transition);
-}
-
-.about__me-image:hover {
-    transform: rotate(0);
+    backdrop-filter: blur(15px);
 }
 
 .about__cards {
@@ -38,10 +34,11 @@
     padding: 2rem;
     text-align: center;
     transition: var(--transition);
+    backdrop-filter: blur(15px);
 }
 
 .about__card:hover {
-    background: transparent;
+    background: var(--color-on);
     border-color: var(--color-primary-variant);
     cursor: default;
 }
@@ -64,6 +61,7 @@
 .about__content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    backdrop-filter: blur(15px);
 }
 
 /* =========== MEDIA (tablette) =========== */
