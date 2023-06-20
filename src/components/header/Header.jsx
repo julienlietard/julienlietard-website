@@ -2,7 +2,7 @@ import './header.css';
 
 import React from 'react';
 import CTA from "./CTA";
-import ME from "../../assets/astro.gif"
+import ME from "../../assets/ban.png"
 import HeaderSocial from "./HeaderSocial";
 import {TiArrowRightThick} from "react-icons/ti";
 
