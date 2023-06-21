@@ -39,8 +39,8 @@ const Projects = () => {
 
     return (
         <section id="projects">
-            <h5>Voici une liste de</h5>
-            <h2>Mes projets</h2>
+            <h5>Découvrez mon</h5>
+            <h2>Workspace</h2>
             <h2>En Construction !</h2>
             <div className="slide-container swiper">
                 <div className="slide-content">

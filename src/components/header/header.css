@@ -36,6 +36,19 @@ header {
     background: var(--color-primary);
 }
 
+@keyframes clignoter {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.cursor {
+    display: inline-block;
+    animation: clignoter 1s infinite;
+    font-size: 1rem;
+    color: var(--color-primary);
+}
+
 /* =========== ME =========== */
 .me {
     /*
