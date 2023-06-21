@@ -64,6 +64,64 @@
     backdrop-filter: blur(15px);
 }
 
+.passions {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.passion {
+    font-size: 0.7rem;
+    padding: 0.5rem;
+    margin-right: 1rem;
+    color: var(--color-white);
+    border-radius: 2rem;
+    cursor: default;
+    max-height: 2.5rem;
+}
+
+#technologies {
+    background-color: seagreen;
+    transition: var(--transition);
+}
+
+#technologies:hover {
+    background-color: #246b43;
+    transition: var(--transition);
+}
+
+#aerospace {
+    background-color: royalblue;
+}
+
+#aerospace:hover {
+    background-color: #3454b2;
+    transition: var(--transition);
+}
+
+#astronomie {
+    background-color: rebeccapurple;
+}
+
+#astronomie:hover {
+    background-color: #4b2671;
+    transition: var(--transition);
+}
+
+#recherche {
+    background-color: rgba(255, 140, 0, 0.41);
+}
+
+#recherche:hover {
+    background-color: rgba(255, 140, 0, 0.29);
+    transition: var(--transition);
+}
+
+.passion_icon {
+    font-size: 1.2em;
+    margin-right: 0.3rem;
+    padding-top: 0.2rem;
+}
+
 /* =========== MEDIA (tablette) =========== */
 @media screen and (max-width: 1024px){
     .about__container{
@@ -95,5 +153,9 @@
 
     .about__content p {
         margin: 1.5rem 0;
+    }
+
+    .passion {
+        padding: 0;
     }
 }

@@ -36,13 +36,34 @@ header {
     background: var(--color-primary);
 }
 
+@keyframes clignoter {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.cursor {
+    display: inline-block;
+    animation: clignoter 1s infinite;
+    font-size: 1rem;
+    color: var(--color-primary);
+}
+
 /* =========== ME =========== */
 .me {
+    /*
     width: 22rem;
     position: absolute;
     left: calc(50% - 11rem);
     overflow: hidden;
     margin-top: 5rem;
+    border-radius: 50%;
+     */
+    position: absolute;
+    left: 50%;
+    width: 30rem;
+    transform: translateX(-50%);
+    overflow: hidden;
     border-radius: 50%;
 }
 
@@ -61,6 +82,14 @@ header {
     header {
         height: 125vh;
     }
+    .me {
+        position: absolute;
+        left: 50%;
+        width: 25rem;
+        transform: translateX(-50%);
+        overflow: hidden;
+        border-radius: 50%;
+    }
 }
 
 /* =========== MEDIA (telephone) =========== */
@@ -70,5 +99,13 @@ header {
     }
     .header__socials, .scroll__down {
         display: none;
+    }
+    .me {
+        position: absolute;
+        left: 50%;
+        width: 25rem;
+        transform: translateX(-50%);
+        overflow: hidden;
+        border-radius: 50%;
     }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './contact.css';
 import {MdOutlineEmail} from "react-icons/md";
-import {BsWhatsapp} from "react-icons/bs";
+import {FaLinkedinIn} from "react-icons/fa";
 
 const Contact = () => {
         return (
@@ -18,10 +18,10 @@ const Contact = () => {
                             <a href="mailto:contact.julienlietard@gmail.com" rel="noreferrer" target="_blank">Envoyer un message</a>
                         </article>
                         <article className="contact__option">
-                            <BsWhatsapp className="contact__option-icon"/>
-                            <h4>WhatsApp</h4>
-                            <h5>+333333333</h5>
-                            <a href="https://api.whatsapp.com/send?phone+3333333333" rel="noreferrer" target="_blank">Envoyer un message</a>
+                            <FaLinkedinIn className="contact__option-icon"/>
+                            <h4>Linkedin</h4>
+                            <h5>/julien-lietard</h5>
+                            <a href="https://www.linkedin.com/in/julien-lietard/" rel="noreferrer" target="_blank">Voir le profil</a>
                         </article>
                     </div>
                     <form action="">
