@@ -55,7 +55,7 @@ const Projects = () => {
                                     The lorem text the section that contains header with having open functionality.
                                     Lorem dolor sit amet consectetur adipisicing elit.
                                 </p>
-                                <a>Voir plus</a>
+                                <a href="https://www.julienlietard.fr/">Voir plus</a>
                             </div>
                         </div>
                         <div className="card swiper-slide">
@@ -68,7 +68,7 @@ const Projects = () => {
                                     The lorem text the section that contains header with having open functionality.
                                     Lorem dolor sit amet consectetur adipisicing elit.
                                 </p>
-                                <a>Voir plus</a>
+                                <a href="https://www.julienlietard.fr/">Voir plus</a>
                             </div>
                         </div>
                         <div className="card swiper-slide">
@@ -81,7 +81,7 @@ const Projects = () => {
                                     The lorem text the section that contains header with having open functionality.
                                     Lorem dolor sit amet consectetur adipisicing elit.
                                 </p>
-                                <a>Voir plus</a>
+                                <a href="https://www.julienlietard.fr/">Voir plus</a>
                             </div>
                         </div>
                         <div className="card swiper-slide">
@@ -94,7 +94,7 @@ const Projects = () => {
                                     The lorem text the section that contains header with having open functionality.
                                     Lorem dolor sit amet consectetur adipisicing elit.
                                 </p>
-                                <a>Voir plus</a>
+                                <a href="https://www.julienlietard.fr/">Voir plus</a>
                             </div>
                         </div>
                     </div>

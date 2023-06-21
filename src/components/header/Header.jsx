@@ -5,7 +5,6 @@ import CTA from "./CTA";
 import ME from "../../assets/ban.png"
 import HeaderSocial from "./HeaderSocial";
 import {TiArrowRightThick} from "react-icons/ti";
-import {BsCursorText} from "react-icons/bs"
 
 const Header = () => {
         return (
