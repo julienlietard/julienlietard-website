@@ -11,9 +11,9 @@ const Header = () => {
             <div className="App">
                 <header>
                     <div className="container header__container">
-                        <h5>Bienvenue sur mon</h5>
-                        <h1>Portfolio !</h1>
-                        <h5 className="text-light">Développeur Fullstack</h5>
+                        <h5>Hello</h5>
+                        <h1>Julien</h1>
+                        <h5 className="text-light">Ingénieur Logiciel</h5>
                         <CTA />
                         <HeaderSocial />
                         <div className="me">
