@@ -1,3 +1,6 @@
+img {
+    border-radius: 25px;
+}
 .projects {
     backdrop-filter: blur(15px);
     display: grid;
@@ -19,6 +22,7 @@
     background-color: var(--color-bg-variant);
     transition: var(--transition);
     cursor: default;
+    backdrop-filter: blur(15px);
 }
 .card a{
     cursor: pointer;
@@ -37,11 +41,7 @@
     flex-direction: column;
     align-items: center;
     padding: 10px 14px;
-}
-.image-content{
-    position: relative;
-    row-gap: 5px;
-    padding: 25px 0;
+    backdrop-filter: blur(0);
 }
 .overlay{
     position: absolute;
@@ -49,7 +49,6 @@
     top: 0;
     height: 100%;
     width: 100%;
-    background-color: var(--color-primary);
     border-radius: 25px 25px 25px 25px;
 }
 .overlay::before,
@@ -70,7 +69,6 @@
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
-    background-color: var(--color-primary);
 }
 .name{
     font-size: 18px;

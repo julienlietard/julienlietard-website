@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import CV from '../../assets/cv.pdf'
 import './cta.css';
+import {TiTick} from "react-icons/ti";
 
 const Cta = () => {
     const [isActive, setIsActive] = useState(false);
@@ -22,13 +23,19 @@ const Cta = () => {
     return (
         <div className="cta">
             {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a href="" download target="_self" onClick={handleClick}>
+            <a href="" download target="_self" onClick={ !isDownloaded ? handleClick : null}>
                 <div className={`button ${isActive ? "active" : ""}`}>
                     <div className="content">
                         <i className={`bx ${isDownloaded ? "bx-check-circle" : "bx-cloud-download"}`} />
-                        <span className="btn btn-primary">
-                            Mon CV
-                        </span>
+                        {
+                            isDownloaded ?
+                                <span className="btn-success">
+                                    <TiTick/>
+                                </span> :
+                                <span className="btn btn-primary">
+                                    Mon CV
+                                </span>
+                        }
                     </div>
                 </div>
             </a>

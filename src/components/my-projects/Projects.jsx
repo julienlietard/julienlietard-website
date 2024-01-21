@@ -1,11 +1,14 @@
 import React, { useEffect } from 'react';
 import './projects.css';
 import Swiper from 'swiper';
+import LABO from '../../assets/labo.png';
+import PORTFOLIO from '../../assets/portfolio.png';
+import UDESMA from '../../assets/udesma45.png';
 
 const Projects = () => {
     useEffect(() => {
         const swiper = new Swiper('.slide-content', {
-            slidesPerView: 3,
+            slidesPerView: 4,
             spaceBetween: 25,
             loop: true,
             centerSlide: true,
@@ -47,41 +50,41 @@ const Projects = () => {
                     <div className="card-wrapper swiper-wrapper">
                         <div className="card swiper-slide">
                             <div className="image-content">
+                                <img src={LABO} alt="Mon labo"/>
                                 <span className="overlay"></span>
                             </div>
                             <div className="card-content">
-                                <h2 className="name">En construction</h2>
+                                <h2 className="name">Mes articles</h2>
                                 <p className="description">
-                                    The lorem text the section that contains header with having open functionality.
-                                    Lorem dolor sit amet consectetur adipisicing elit.
+                                    Découvrez mes différents articles sur divers sujets à travers mon blog.
                                 </p>
-                                <a href="https://www.julienlietard.fr/">Voir plus</a>
+                                <a href="https://blog.julienlietard.fr/">Voir plus</a>
                             </div>
                         </div>
                         <div className="card swiper-slide">
                             <div className="image-content">
+                                <img src={PORTFOLIO} alt="Mon labo"/>
                                 <span className="overlay"></span>
                             </div>
                             <div className="card-content">
-                                <h2 className="name">En construction</h2>
+                                <h2 className="name">Mon Portfolio</h2>
                                 <p className="description">
-                                    The lorem text the section that contains header with having open functionality.
-                                    Lorem dolor sit amet consectetur adipisicing elit.
+                                    Découvrez mon portfolio développé en React et déployé via Azure.
                                 </p>
-                                <a href="https://www.julienlietard.fr/">Voir plus</a>
+                                <a href="https://www.julienlietard.fr/">Vous êtes ici</a>
                             </div>
                         </div>
                         <div className="card swiper-slide">
                             <div className="image-content">
+                                <img src={UDESMA} alt="Mon labo"/>
                                 <span className="overlay"></span>
                             </div>
                             <div className="card-content">
-                                <h2 className="name">En construction</h2>
+                                <h2 className="name">Udesma45</h2>
                                 <p className="description">
-                                    The lorem text the section that contains header with having open functionality.
-                                    Lorem dolor sit amet consectetur adipisicing elit.
+                                    Site web de l'association UDESMA45 développé lors de mon stage de L3 MIAGE.
                                 </p>
-                                <a href="https://www.julienlietard.fr/">Voir plus</a>
+                                <a href="https://udesma45.fr/">Voir plus</a>
                             </div>
                         </div>
                         <div className="card swiper-slide">
