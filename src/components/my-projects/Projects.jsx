@@ -49,6 +49,19 @@ const Projects = () => {
             <div className="slide-container swiper">
                 <div className="slide-content">
                     <div className="card-wrapper swiper-wrapper">
+                    <div className="card swiper-slide">
+                            <div className="image-content">
+                                <img src={PORTFOLIO} alt="Mon labo"/>
+                                <span className="overlay"></span>
+                            </div>
+                            <div className="card-content">
+                                <h2 className="name">Mon Portfolio</h2>
+                                <p className="description">
+                                    Découvrez mon portfolio développé en React et déployé via Azure.
+                                </p>
+                                <a href="https://www.julienlietard.fr/">Vous êtes ici</a>
+                            </div>
+                        </div>
                         <div className="card swiper-slide">
                             <div className="image-content">
                                 <img src={LABO} alt="Mon labo"/>
@@ -64,26 +77,13 @@ const Projects = () => {
                         </div>
                         <div className="card swiper-slide">
                             <div className="image-content">
-                                <img src={PORTFOLIO} alt="Mon labo"/>
-                                <span className="overlay"></span>
-                            </div>
-                            <div className="card-content">
-                                <h2 className="name">Mon Portfolio</h2>
-                                <p className="description">
-                                    Découvrez mon portfolio développé en React et déployé via Azure.
-                                </p>
-                                <a href="https://www.julienlietard.fr/">Vous êtes ici</a>
-                            </div>
-                        </div>
-                        <div className="card swiper-slide">
-                            <div className="image-content">
                             <img src={JUDESIGN} alt="Mon labo"/>
                                 <span className="overlay"></span>
                             </div>
                             <div className="card-content">
                                 <h2 className="name">Ma librairie React</h2>
                                 <p className="description">
-                                    Découvrez ma librairie React avec mon Storybook.
+                                    Découvrez ma librairie React avec mon Storybook et déployé via Azure.
                                 </p>
                                 <a href="https://happy-mushroom-009b83303.5.azurestaticapps.net/">Voir plus</a>
                             </div>
