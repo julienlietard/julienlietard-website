@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="019e1cae-2475-4342-941f-96cdddf300a8" name="Changes" comment="fix navigation, ajout projects">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/about-me/about.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about-me/about.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2GDSho9H1qymeM3FpdftnCrabbt" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/pouetteur-mobile&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Julien\Documents\Dev\PROJETS\julienlietard\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Julien\Documents\Dev\PROJETS\julienlietard\src\assets" />
+      <recent name="C:\Users\Julien\Documents\Dev\PROJETS\julienlietard\public" />
+      <recent name="C:\Users\Julien\Documents\Dev\PROJETS\julienlietard\src\components" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.build" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="019e1cae-2475-4342-941f-96cdddf300a8" name="Changes" comment="" />
+      <created>1665921783054</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665921783054</updated>
+      <workItem from="1665921785324" duration="7998000" />
+      <workItem from="1665931534329" duration="9670000" />
+      <workItem from="1666110563835" duration="13554000" />
+      <workItem from="1666203602280" duration="620000" />
+      <workItem from="1667654613308" duration="820000" />
+      <workItem from="1667656080611" duration="1557000" />
+      <workItem from="1667672903972" duration="426000" />
+      <workItem from="1667673613702" duration="1319000" />
+      <workItem from="1667678473979" duration="1698000" />
+      <workItem from="1667686405381" duration="687000" />
+      <workItem from="1667737859633" duration="23000" />
+      <workItem from="1669385974749" duration="813000" />
+      <workItem from="1669463928866" duration="352000" />
+      <workItem from="1670501747376" duration="5915000" />
+      <workItem from="1670524409596" duration="56000" />
+      <workItem from="1670524472989" duration="2091000" />
+      <workItem from="1670767866807" duration="74000" />
+      <workItem from="1670767950247" duration="665000" />
+      <workItem from="1671282903533" duration="523000" />
+      <workItem from="1671559642520" duration="2414000" />
+      <workItem from="1671577488303" duration="376000" />
+      <workItem from="1671643020789" duration="13898000" />
+      <workItem from="1671701501404" duration="1705000" />
+      <workItem from="1671724668024" duration="47000" />
+      <workItem from="1672436416163" duration="596000" />
+      <workItem from="1672606780274" duration="309000" />
+      <workItem from="1673887526013" duration="857000" />
+      <workItem from="1673889681638" duration="117000" />
+      <workItem from="1673895322799" duration="3998000" />
+      <workItem from="1674233193254" duration="597000" />
+      <workItem from="1674495568684" duration="1008000" />
+      <workItem from="1674597624131" duration="1057000" />
+      <workItem from="1674842814763" duration="604000" />
+      <workItem from="1675784364536" duration="2000" />
+      <workItem from="1676045098278" duration="644000" />
+      <workItem from="1676483800662" duration="2000" />
+      <workItem from="1676913862458" duration="686000" />
+      <workItem from="1687288910136" duration="5860000" />
+      <workItem from="1687371885758" duration="11110000" />
+      <workItem from="1687706672275" duration="33000" />
+      <workItem from="1687706735785" duration="118000" />
+      <workItem from="1687707302238" duration="182000" />
+      <workItem from="1687709714240" duration="2852000" />
+      <workItem from="1690668197427" duration="95000" />
+      <workItem from="1690671550929" duration="11000" />
+      <workItem from="1694792638557" duration="1523000" />
+      <workItem from="1694949950657" duration="2888000" />
+      <workItem from="1695237588357" duration="1247000" />
+      <workItem from="1705847336901" duration="3733000" />
+      <workItem from="1722272628138" duration="62000" />
+    </task>
+    <task id="LOCAL-00001" summary="premier commit de test en production">
+      <created>1665923737089</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665923737089</updated>
+    </task>
+    <task id="LOCAL-00002" summary="fix node modules">
+      <created>1665931437391</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665931437391</updated>
+    </task>
+    <task id="LOCAL-00003" summary="navbar (dock)">
+      <created>1665934834308</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665934834308</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Finalisation pour mettre en prod">
+      <created>1666123698520</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1666123698520</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Correction des errors et warnings pour la prod">
+      <created>1666124363955</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666124363955</updated>
+    </task>
+    <task id="LOCAL-00006" summary="amélioration du css et de l'image de l'header">
+      <created>1669386652031</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1669386652031</updated>
+    </task>
+    <task id="LOCAL-00007" summary="modification de la PP">
+      <created>1670501924713</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670501924713</updated>
+    </task>
+    <task id="LOCAL-00008" summary="ajout de tokens et easter eggs">
+      <created>1670506923901</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670506923901</updated>
+    </task>
+    <task id="LOCAL-00009" summary="résolution problème mep">
+      <created>1670509172950</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1670509172950</updated>
+    </task>
+    <task id="LOCAL-00010" summary="cacher le code source en prod">
+      <created>1670525681141</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1670525681141</updated>
+    </task>
+    <task id="LOCAL-00011" summary="cacher le code source en prod">
+      <created>1671664665749</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1671664665749</updated>
+    </task>
+    <task id="LOCAL-00012" summary="amélioration css">
+      <created>1674495592671</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1674495592672</updated>
+    </task>
+    <task id="LOCAL-00013" summary="modif image header + modif bouton mon cv">
+      <created>1687294828772</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1687294828772</updated>
+    </task>
+    <task id="LOCAL-00014" summary="améliorations css + début projects">
+      <created>1687380277460</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1687380277460</updated>
+    </task>
+    <task id="LOCAL-00015" summary="améliorations css">
+      <created>1687381399864</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1687381399864</updated>
+    </task>
+    <task id="LOCAL-00016" summary="fix deployment">
+      <created>1687381732576</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1687381732576</updated>
+    </task>
+    <task id="LOCAL-00017" summary="fix navigation, ajout projects">
+      <option name="closed" value="true" />
+      <created>1705850453565</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1705850453565</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="premier commit de test en production" />
+    <MESSAGE value="fix node modules" />
+    <MESSAGE value="navbar (dock)" />
+    <MESSAGE value="Finalisation pour mettre en prod" />
+    <MESSAGE value="Correction des errors et warnings pour la prod" />
+    <MESSAGE value="amélioration du css et de l'image de l'header" />
+    <MESSAGE value="modification de la PP" />
+    <MESSAGE value="ajout de tokens et easter eggs" />
+    <MESSAGE value="résolution problème mep" />
+    <MESSAGE value="cacher le code source en prod" />
+    <MESSAGE value="amélioration css" />
+    <MESSAGE value="modif image header + modif bouton mon cv" />
+    <MESSAGE value="améliorations css + début projects" />
+    <MESSAGE value="améliorations css" />
+    <MESSAGE value="fix deployment" />
+    <MESSAGE value="fix navigation, ajout projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix navigation, ajout projects" />
+  </component>
+</project>

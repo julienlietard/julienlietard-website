@@ -4,6 +4,7 @@ import Swiper from 'swiper';
 import LABO from '../../assets/labo.png';
 import PORTFOLIO from '../../assets/portfolio.png';
 import UDESMA from '../../assets/udesma45.png';
+import JUDESIGN from '../../assets/ju-design.png';
 
 const Projects = () => {
     useEffect(() => {
@@ -76,6 +77,19 @@ const Projects = () => {
                         </div>
                         <div className="card swiper-slide">
                             <div className="image-content">
+                            <img src={JUDESIGN} alt="Mon labo"/>
+                                <span className="overlay"></span>
+                            </div>
+                            <div className="card-content">
+                                <h2 className="name">Ma librairie React</h2>
+                                <p className="description">
+                                    Découvrez ma librairie React avec mon Storybook.
+                                </p>
+                                <a href="https://happy-mushroom-009b83303.5.azurestaticapps.net/">Voir plus</a>
+                            </div>
+                        </div>
+                        <div className="card swiper-slide">
+                            <div className="image-content">
                                 <img src={UDESMA} alt="Mon labo"/>
                                 <span className="overlay"></span>
                             </div>
@@ -85,19 +99,6 @@ const Projects = () => {
                                     Site web de l'association UDESMA45 développé lors de mon stage de L3 MIAGE.
                                 </p>
                                 <a href="https://udesma45.fr/">Voir plus</a>
-                            </div>
-                        </div>
-                        <div className="card swiper-slide">
-                            <div className="image-content">
-                                <span className="overlay"></span>
-                            </div>
-                            <div className="card-content">
-                                <h2 className="name">En construction</h2>
-                                <p className="description">
-                                    The lorem text the section that contains header with having open functionality.
-                                    Lorem dolor sit amet consectetur adipisicing elit.
-                                </p>
-                                <a href="https://www.julienlietard.fr/">Voir plus</a>
                             </div>
                         </div>
                     </div>
