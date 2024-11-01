@@ -12,8 +12,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.6.0",
     "react-scripts": "5.0.1",
-    "sass": "^1.57.1",
-    "swiper": "^9.4.1",
+    "sass": "^1.80.5",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -39,8 +38,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "node-sass": "^7.0.3"
   }
 }

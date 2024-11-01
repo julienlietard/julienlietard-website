@@ -11,11 +11,11 @@
     border-radius: 2rem;
     border: 1px solid transparent;
     transition: var(--transition);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .skill__container > div:hover {
-    background: var(--color-on);
-    border-color: var(--color-primary-variant);
+    transform: scale(1.01);
     cursor: default;
 }
 

@@ -1,0 +1,38 @@
+.card {
+    border-radius: 15px;
+    background-color: #121212;
+    padding: 10px;
+    margin:1rem;
+    transition: transform 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.image-content {
+    position: relative;
+    border-radius: 15px 15px 0 0;
+    overflow: hidden;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 10px 14px;
+}
+
+.name {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.description {
+    font-size: 14px;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.01);
+}

@@ -1,0 +1,87 @@
+.island {
+    background: #121212;
+    width: 242.75px;
+    height: 40px;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    top: 1.8rem;
+    transform: translateX(-50%) scale(1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+    border-radius: 1rem;
+    backdrop-filter: blur(15px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    user-select: none;
+    transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1),
+                width 1.2s cubic-bezier(0.25, 1, 0.5, 1),
+                height 0.8s cubic-bezier(0.22, 1.4, 0.32, 1),
+                padding 0.8s ease;
+}
+
+.island:hover:not(.open) {
+    transform: translateX(-50%) scale(1.03);
+}
+
+.island.open {
+    width: 30%;
+    height: 200px;
+    padding: 1rem;
+    transform: translateX(-50%) scale(1.05);
+    transition: transform 0.7s cubic-bezier(0.25, 1.5, 0.5, 1),
+                width 1.2s cubic-bezier(0.25, 1, 0.5, 1),
+                height 0.8s cubic-bezier(0.22, 1.4, 0.32, 1), 
+                padding 0.8s ease;
+}
+
+.section-name {
+    flex-grow: 1;
+    text-align: left;
+    padding: 0 0.8rem 0 1rem;
+    color: #a1a1b7;
+    font-size: 0.9rem;
+}
+
+.progress-container {
+    background-color: #1b82ff;
+    min-width: 67.3666px;
+    border-radius: 1rem;
+    padding: 0.2rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.progress {
+    color: #ffffff;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.sections {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    gap: 1rem;
+    position: absolute;
+    bottom: 1rem;
+    width: 100%;
+}
+
+.section-link {
+    color: #a1a1b7;
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 0.3rem 0;
+    text-align: center;
+    transition: color 0.3s ease;
+}
+
+.section-link:hover {
+    color: #1b82ff;
+}
