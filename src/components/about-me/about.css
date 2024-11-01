@@ -38,8 +38,7 @@
 }
 
 .about__card:hover {
-    background: var(--color-on);
-    border-color: var(--color-primary-variant);
+    transform: scale(1.01);
     cursor: default;
 }
 

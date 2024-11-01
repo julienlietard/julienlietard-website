@@ -6,10 +6,12 @@ import Contact from "./components/contact-card/Contact";
 import Skills from "./components/my-skills/Skills";
 import Footer from "./components/footer/Footer";
 import Projects from "./components/my-projects/Projects";
+import Island from './components/island/Island';
 
 const App = () => {
     return (
       <>
+          <Island />
           <Header />
           <Nav />
           <About />

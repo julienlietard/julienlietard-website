@@ -1,112 +1,37 @@
-img {
-    border-radius: 25px;
-}
-.projects {
-    backdrop-filter: blur(15px);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
-}
-
-.slide-container{
-    margin-left: 11%;
-    margin-right: 11%;
-    height: 400px;
-}
-.slide-content{
-    overflow: hidden;
-    border-radius: 25px;
-}
-.card{
-    border-radius: 25px;
-    background-color: var(--color-bg-variant);
-    transition: var(--transition);
-    cursor: default;
-    backdrop-filter: blur(15px);
-}
-.card a{
-    cursor: pointer;
-}
-.card:hover {
-    background-color: var(--color-on);
-    transition: var(--transition);
-}
-.card-wrapper {
+.ju-carousel {
     display: flex;
-    flex-direction: row;
-}
-.image-content,
-.card-content{
-    display: flex;
-    flex-direction: column;
     align-items: center;
-    padding: 10px 14px;
-    backdrop-filter: blur(0);
-}
-.overlay{
-    position: absolute;
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
-    border-radius: 25px 25px 25px 25px;
-}
-.overlay::before,
-
-.overlay::after{
-    background-color: var(--color-bg-variant);
-}
-.card-image{
     position: relative;
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    background: var(--color-bg-variant);
-    padding: 3px;
+    overflow: hidden;
+    border-radius: 10px; /* Coins arrondis */
 }
-.card-image .card-img{
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    border-radius: 50%;
+
+.ju-carousel__viewport {
+    flex: 1;
+    overflow: hidden; /* Masque le contenu qui dépasse */
 }
-.name{
-    font-size: 18px;
-    font-weight: 500;
+
+.ju-carousel__track {
+    display: flex; /* Aligne les slides horizontalement */
+    transition: transform 0.5s ease; /* Animation de glisse fluide */
+    will-change: transform; /* Optimise les performances d'animation */
 }
-.description{
-    font-size: 14px;
-    text-align: center;
+
+.ju-carousel__slide {
+    min-width: 100%; /* Chaque slide prend toute la largeur du viewport */
+    transition: opacity 0.5s ease; /* Animation d'opacité pour un effet de fondu */
 }
-.swiper-navBtn{
-    background-color: var(--color-primary);
-    transition: color 0.3s ease;
+
+.ju-carousel__control {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    color: #007bff; /* Couleur des flèches */
+    padding: 10px;
+    transition: color 0.3s;
 }
-.swiper-navBtn:hover{
-    background-color: var(--color-primary);
-}
-.swiper-navBtn::before,
-.swiper-navBtn::after{
-    font-size: 35px;
-}
-.swiper-button-next{
-    right: 0;
-}
-.swiper-button-prev{
-    left: 0;
-}
-.swiper-pagination-bullet{
-    background-color: var(--color-primary);
-    opacity: 1;
-}
-.swiper-pagination-bullet-active{
-    background-color: var(--color-primary);
-}
-@media screen and (max-width: 768px) {
-    .slide-content{
-        margin: 0 10px;
-    }
-    .swiper-navBtn{
-        display: none;
-    }
+
+.ju-carousel__control:hover {
+    color: #0056b3; /* Couleur des flèches au survol */
 }
