@@ -1,10 +1,10 @@
-.experience-expandable {
+#experience {
   max-width: 850px;
   margin: 4rem auto;
   padding: 0 1rem;
 }
 
-.experience-expandable h2 {
+#experience h2 {
   text-align: center;
   font-size: 2rem;
   margin-bottom: 2rem;

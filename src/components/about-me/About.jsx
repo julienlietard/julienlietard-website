@@ -5,7 +5,6 @@ import {RiRocket2Fill} from "react-icons/ri";
 import {FaUserAstronaut} from "react-icons/fa";
 import {GiMaterialsScience} from "react-icons/gi";
 import Cta from '../header/CTA';
-import {TiArrowRightThick} from "react-icons/ti";
 
 const About = () => {
         return (
