@@ -2,6 +2,10 @@ header {
     height: 100vh;
     padding-top: 7rem;
     overflow: hidden;
+    background: url('../../assets/footer.png') no-repeat center center/cover;
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
 }
 
 .header__container {

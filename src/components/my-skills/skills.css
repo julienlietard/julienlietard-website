@@ -1,71 +1,93 @@
-.skill__container {
-    backdrop-filter: blur(15px);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 2rem;
+.skills-section {
+  overflow: hidden;
+  background-color: #161616;
+  color: white;
+  display: flex;
+  border-radius: 2rem;
+  border: 1px dashed rgba(255, 255, 255, 0.15);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+  background-image:
+    radial-gradient(ellipse at center, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.01) 40%, transparent 70%),
+    linear-gradient(to right, rgba(255, 255, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.04) 1px, transparent 1px);
+  background-size: 100% 100%, 40px 40px, 40px 40px;
+  background-repeat: no-repeat, repeat, repeat;
 }
 
-.skill__container > div {
-    background: var(--color-bg-variant);
-    padding: 2.4rem 5rem;
-    border-radius: 2rem;
-    border: 1px solid transparent;
-    transition: var(--transition);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+.skills-title {
+  font-size: 2.5rem;
+  padding-top: 2rem;
+  z-index: 2;
+  color: white;
 }
 
-.skill__container > div:hover {
-    transform: scale(1.01);
-    cursor: default;
+.skills-constellation {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  position: relative;
+  width: 100%;
+  height: 100%;
 }
 
-.skill__container > div h3 {
-    text-align: center;
-    margin-bottom: 2rem;
-    color: var(--color-primary);
+.skill-badge {
+  position: absolute;
+  padding: 0.6rem 1.2rem;
+  background: rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+  border: 1px dashed rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(4px);
+  color: white;
+  font-size: 0.9rem;
+  animation: floatBadge var(--duration) ease-in-out infinite;
+  animation-direction: alternate;
+  transform: translate(0);
+  white-space: nowrap;
 }
 
-.skill__content {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    row-gap: 2rem;
+.skills-section {
+  position: relative;
+  height: 100vh;
+  background: #161616;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  z-index: 1;
 }
 
-.skill__details {
-    display: flex;
-    gap: 1rem;
+.skills__grid-bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  pointer-events: none;
+  background-image:
+    linear-gradient(to right, rgba(255,255,255,0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255,255,255,0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+
+  mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 80%);
+  -webkit-mask-image: radial-gradient(circle at center, rgba(0,0,0,1) 20%, rgba(0,0,0,0) 80%);
+  mask-size: cover;
+  -webkit-mask-size: cover;
+  mask-repeat: no-repeat;
+  -webkit-mask-repeat: no-repeat;
 }
 
-.skill__details-icon {
-    margin-top: 6px;
-    color: var(--color-primary);
-}
-
-/* =========== MEDIA (tablette) =========== */
-@media screen and (max-width: 1024px){
-    .skill__container {
-        grid-template-columns: 1fr;
-    }
-
-    .skill__container > div {
-        width: 80%;
-        padding: 2rem;
-        margin: auto;
-    }
-
-    .skill__content {
-        padding: 1rem;
-    }
-}
-
-/* =========== MEDIA (telephone) =========== */
-@media screen and (max-width: 600px){
-    .skill__container {
-        gap: 1rem;
-    }
-
-    .skill__container > div {
-        width: 100%;
-        padding: 2rem 1rem;
-    }
+@keyframes floatBadge {
+  from {
+    transform: translate(0, 0);
+  }
+  to {
+    transform: translate(
+      calc(var(--direction) * var(--amplitude)),
+      calc(var(--direction) * -1 * var(--amplitude))
+    );
+  }
 }

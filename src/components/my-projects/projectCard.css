@@ -1,10 +1,11 @@
 .card {
     border-radius: 15px;
-    background-color: #121212;
+    background: rgb(255, 255, 255);
     padding: 10px;
     margin:1rem;
     transition: transform 0.2s ease;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    min-height: 65vh;
 }
 
 .image-content {
@@ -20,17 +21,99 @@
 }
 
 .card-content {
-    padding: 10px 14px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    gap: 1rem;
+    margin-top: 1rem;
 }
 
 .name {
-    font-size: 18px;
-    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    text-align: left;
+    background: #f1f1f1;
+    border-radius: 18px 18px 18px 0;
+    padding: 8px 14px;
+    display: flex;
+    color: rgb(54, 54, 54);
+    position: relative;
+    margin-left: 18px;
+    min-height: 8em;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    max-width: 80%;
 }
 
-.description {
+.name a {
+    color: #007bff;
+    text-decoration: underline;
+}
+
+.name .user {
+    align-self: flex-start;
+    margin-left: 0;
+    margin-top: 1em;
+    color: #888;
+}
+
+.response {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    margin-left: auto;
+    margin-right: 0;
+    background: #007bffc7;
+    padding: 8px 16px;
+    border-radius: 18px 18px 0 18px;
+    display: inline-flex;
+
+    justify-content: flex-end;
+    position: relative;
+    box-shadow: 0 2px 8px rgba(52, 135, 224, 0.15);
+    text-align: right;
+    min-height: 5em;
+    max-width: 80%;
+    width: auto;
+}
+
+.response .description {
+    padding-bottom: 1em;
+}
+
+.response .user {
+    align-self: flex-end;
+    color: #d6d6d6;
+    margin-top: 0.5em;
     font-size: 14px;
-    text-align: center;
+}
+
+.message {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    text-align: left;
+    background: #f1f1f1;
+    border-radius: 18px 18px 18px 0;
+    padding: 8px 14px;
+    display: flex;
+    color: #333;
+    position: relative;
+    margin-left: 18px;
+    min-height: 8em;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.message .user {
+    align-self: flex-start;
+    margin-left: 0;
+    margin-top: 1em;
+    color: #888;
 }
 
 .card:hover {

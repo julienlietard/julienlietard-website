@@ -5,7 +5,7 @@ import { FaPlay, FaPause } from 'react-icons/fa';
 const JUCarousel = ({
     children,
     autoScroll = true,
-    scrollInterval = 3000,
+    scrollInterval = 6000,
   }) => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [isAutoScroll, setIsAutoScroll] = useState(autoScroll);
