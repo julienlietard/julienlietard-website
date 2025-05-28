@@ -2,7 +2,7 @@ import './header.css';
 
 const Header = () => {
         return (
-            <div className="App">
+            <div id="home">
                 <header>
                     
                 </header>
