@@ -50,7 +50,7 @@ const ExperienceSection = () => {
   };
 
   return (
-    <section className="experience-expandable">
+    <section id="experience">
       <h2>Work Experience</h2>
       <ul className="experience-list">
         {experiences.map((exp, i) => (

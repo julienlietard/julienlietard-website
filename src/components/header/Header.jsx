@@ -1,11 +1,8 @@
 import './header.css';
-import CTA from "./CTA";
-import HeaderSocial from "./HeaderSocial";
-import {TiArrowRightThick} from "react-icons/ti";
 
 const Header = () => {
         return (
-            <div className="App">
+            <div id="home">
                 <header>
                     
                 </header>
