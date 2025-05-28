@@ -1,39 +1,40 @@
 nav {
-    background: #121212;
-    width: max-content;
-    padding: 0.5rem 0.6rem;
-    z-index: 2;
-    position: fixed;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 1rem;
-    display: flex;
-    gap: 0.2rem;
-    border-radius: 3rem;
-    backdrop-filter: blur(15px);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
-  }
-  
-  nav a {
-    background: transparent;
-    padding: 1rem 2rem 1rem 2rem;
-    border-radius: 3rem;
-    display: flex;
-    color: #a1a1b7;
-    font-size: 1.1rem;
-    transition: background 0.3s;
-    border-color: transparent;
-  }
-  
-  nav a:hover {
-    background: #1b82ff;
-    color: white;
-    cursor: pointer;
-  }
-  
-  nav a.active {
-    background: #1b82ff;
-    color: rgb(255, 255, 255);
-    border-radius: 3rem;
-    padding: 1rem 2rem 1rem 2rem;
-  }
+  background: rgba(40, 40, 40, 0.5);
+  width: max-content;
+  padding: 0.8rem 1rem;
+  z-index: 100;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 1.5rem;
+  display: flex;
+  gap: 0.5rem;
+  border-radius: 999px;
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+}
+
+nav a {
+  padding: 1rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.4rem;
+  transition: all 0.2s ease;
+}
+
+nav a:hover {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  transform: scale(1.08);
+}
+
+nav a.active {
+  background: rgba(255, 255, 255, 0.15);
+  color: white;
+
+}

@@ -8,11 +8,9 @@ import './components/background/background.scss';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <div id="stars-container">
-          <div id='stars'></div>
-            <div id='stars2'></div>
+
           <App />
-      </div>
+
   </React.StrictMode>
 );
 

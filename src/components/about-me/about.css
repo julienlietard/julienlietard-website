@@ -1,4 +1,5 @@
-.meirl {
+#about {
+    margin-bottom: 10rem;
 }
 
 .about__container {
@@ -21,20 +22,21 @@
     backdrop-filter: blur(15px);
 }
 
-.about__cards {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1.5rem;
+.about__card {
+    background: #3898FF;
+    border-radius: 18px 18px 18px 0;
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 0 1rem 0 1rem;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+    backdrop-filter: blur(15px);
 }
 
-.about__card {
-    background: var(--color-bg-variant);
-    border: 1px solid transparent;
-    border-radius: 1rem;
-    padding: 2rem;
-    text-align: center;
-    transition: var(--transition);
-    backdrop-filter: blur(15px);
+.about__card p {
+    color: #fff;
+    text-align: left;
 }
 
 .about__card:hover {
@@ -42,24 +44,8 @@
     cursor: default;
 }
 
-.about__icon {
-    color: var(--color-primary);
-    font-size: 1.4rem;
-    margin-bottom: 1rem;
-}
-
-.about__card h5 {
-    font-size: 0.95rem;
-}
-
-.about__card small {
-    font-size: 0.7rem;
-    color: var(--color-light);
-}
-
 .about__content p {
-    margin: 2rem 0 2.6rem;
-    color: var(--color-light);
+    margin: 1rem 0 1rem;
     backdrop-filter: blur(15px);
 }
 
@@ -108,11 +94,11 @@
 }
 
 #recherche {
-    background-color: rgba(255, 140, 0, 0.41);
+    background-color: rgba(255, 161, 47, 0.767);
 }
 
 #recherche:hover {
-    background-color: rgba(255, 140, 0, 0.29);
+    background-color: rgba(252, 154, 35, 0.836);
     transition: var(--transition);
 }
 
@@ -155,3 +141,55 @@
         margin: 1.5rem 0;
     }
 }
+
+.passions {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+}
+
+.passion {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+  font-weight: 500;
+  padding: 0.4rem 0.9rem;
+  border-radius: 2rem;
+  color: white;
+  background: #666;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: all 0.2s ease-in-out;
+  user-select: none;
+}
+
+.passion:hover {
+  transform: translateY(-1px) scale(1.02);
+  box-shadow: 0 3px 8px rgba(0,0,0,0.12);
+}
+
+.passion__icon {
+  font-size: 1.1rem;
+  flex-shrink: 0;
+  margin-top: 1px;
+}
+
+/* Couleurs spécifiques */
+.passion--tech {
+  background-color: #2e8b57;
+}
+
+.passion--aero {
+  background-color: #3a68d0;
+}
+
+.passion--astro {
+  background-color: #6a0dad;
+}
+
+.passion--research {
+  background-color: #ff9a2e;
+}
+

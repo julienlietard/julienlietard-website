@@ -107,20 +107,20 @@ input:checked + .slider:before {
 }
 
 .icon {
-    background: #121212;
+    background: rgba(40, 40, 40, 0.5);
     cursor: pointer;
     margin-right: 10px;
-    color: #007bff;
+    color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(15px);
-    border-radius: 50%;
-    padding: 1rem;
+    border-radius:999px;
+    padding: 12px;
     line-height: 1;
     margin-top: 0.6rem;
 }
 
 .indicatorContainer {
-    background: #121212;
+    background: rgba(40, 40, 40, 0.5);
     display: flex;
     justify-content: center;
     margin-top: 10px;
@@ -138,9 +138,14 @@ input:checked + .slider:before {
     background-color: #ccc;
     border-radius: 50%;
     cursor: pointer;
-    transition: background-color 0.3s;
+    transition: all 0.2s ease;
+}
+
+.indicator:hover {
+    background-color: white;
+    transform: scale(1.10);
 }
 
 .indicator.active {
-    background-color: #007bff;
+    background-color: #78b9ff;
 }

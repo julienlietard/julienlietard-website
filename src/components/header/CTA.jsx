@@ -1,47 +1,40 @@
-import React, {useState} from 'react';
-import CV from '../../assets/cv.pdf'
+import {useState} from 'react';
+import CV from '../../assets/cv.pdf';
 import './cta.css';
-import {TiTick} from "react-icons/ti";
+
+import dribbbleIcon from '../../assets/dribbble.svg';
+import githubIcon from '../../assets/github.svg';
+import xIcon from '../../assets/x.svg';
+import cvIcon from '../../assets/cv.svg';
+import behanceIcon from '../../assets/behance.svg';
+import instagramIcon from '../../assets/Instagram.svg.png';
 
 const Cta = () => {
-    const [isActive, setIsActive] = useState(false);
-    const [isDownloaded, setIsDownloaded] = useState(false);
+  const [isClicked, setIsClicked] = useState(false);
 
-    const handleClick = () => {
-        setIsActive(true);
-        setTimeout(() => {
-            setIsActive(false);
-            setIsDownloaded(true);
+  const downloadCV = () => {
+    setIsClicked(true);
+    setTimeout(() => setIsClicked(false), 1500);
+    const link = document.createElement('a');
+    link.href = CV;
+    link.download = 'CV-JulienLietard.pdf';
+    link.click();
+  };
 
-            const link = document.createElement('a');
-            link.href = CV;
-            link.download = 'CV-julienlietard.pdf';
-            link.click();
-        }, 3000);
-    };
-
-    return (
-        <div className="cta">
-            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
-            <a href="" download target="_self" onClick={ !isDownloaded ? handleClick : null}>
-                <div className={`button ${isActive ? "active" : ""}`}>
-                    <div className="content">
-                        <i className={`bx ${isDownloaded ? "bx-check-circle" : "bx-cloud-download"}`} />
-                        {
-                            isDownloaded ?
-                                <span className="btn-success">
-                                    <TiTick/>
-                                </span> :
-                                <span className="btn btn-primary">
-                                    Mon CV
-                                </span>
-                        }
-                    </div>
-                </div>
-            </a>
-            <a href={"#contact"} className="btn btn-primary">Me contacter</a>
-        </div>
-    );
-}
+  return (
+    <div className="cta">
+      <div className="cta__socials">
+        <button onClick={downloadCV} title="Télécharger mon CV">
+          <img src={cvIcon} alt="Télécharger CV" />
+        </button>
+        <a href="#" id="github"><img src={githubIcon} alt="GitHub" /></a>
+        <a href="#" id="x"><img src={xIcon} alt="X" /></a>
+        <a href="#" id="dribbble"><img src={dribbbleIcon} alt="Dribbble" /></a>
+        <a href="#" id="behance"><img src={behanceIcon} alt="Behance" /></a>
+        <a href="#" id="instagram"><img src={instagramIcon} alt="Instagram" /></a>
+      </div>
+    </div>
+  );
+};
 
 export default Cta;
